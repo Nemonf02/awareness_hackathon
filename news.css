@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+  }
+  #top{
+    color: peachpuff;
+    padding: 35px;
+    text-align: center;
+    font-family:‘Source Sans Pro’, helvetica, sans-serif;
+    }
+  #myHeader{
+  background-color:lightblue;
+  color: peachpuff;
+  padding: 4px;
+  text-align: center;
+  font-family:‘Source Sans Pro’, helvetica, sans-serif;
+  }
+  p{
+    color: white;
+  }
+  .top-design {
+     display: block ;
+     text-align: center ;
+     height: 70px ;
+   }
+   .top-design ul {
+       list-style-type: none;
+     }
+     .top-design ul li {
+       display: inline-block ;
+     }
+     .top-design li a {
+       color: #474747;
+       text-align: center;
+       padding: 14px 40px;
+       padding-left: 40px ;
+       line-height: 80px ;
+       letter-spacing: 1px ;
+       font-size: 20px ;
+       text-decoration: none;
+       font-family: ‘Gayathri’, sans-serif;
+       /* font-weight: bold ;  */
+       font-size: 20px ;
+     }
+     a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      font-family: "Monserrat", sans-serif;
+    }
+    a:hover {
+      color: #E8DED2;
+      text-align: center;
+    }
+  h1{
+    font-weight: normal;
+    padding:0 0 10px;
+    margin:0 0 10px;
+    color: white;
+  }
+  .content-block{
+    padding:20px;
+    margin:20px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  #content{
+    border:solid 10px black;
+  }
+  #reserve{
+    border:solid 10px white;
+  }
+  #footer{
+    background: black;
+    color:white;
+  }
+  form{
+    text-align: left;
+    width:300px;
+    margin: 20px auto 0;
+  }
+  form label{
+    display: block;
+    width:290px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    background: #333;
+    color: white;
+  }
+  form input{
+    display:block;
+    width:290px;
+    padding:5px;
+    margin: 0 0 10px;
+    border:none;
+    font-size: 22px;
+    font-family: ‘Gayathri’, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  form input[type=“submit”]{
+    background:peru;
+    color:white;
+    cursor:pointer;
+    width:300px;
+  }
+  footer {
+      font-size: 20px;
+      font-family: Optima;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      position: relative;
+      align-items: center;
+    }
+    .social {
+      width: 25px;
+      height: 25px;
+    }
